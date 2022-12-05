@@ -3,7 +3,7 @@ const tasks = require("./taskroute");
 const cors = require("cors");
 const express = require("express");
 const mongoose = require("mongoose");
-const mongodb="mongodb+srv://todo:MzgoMAzfU6EF6ObR@cluster0.v6jkylg.mongodb.net/?retryWrites=true&w=majority"
+const mongodb=""
 const database = async () => {
     try {
         // const connectionParams = {
